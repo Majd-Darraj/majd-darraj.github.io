@@ -30,17 +30,3 @@ h4 {
     background-color: #e1f8f8;
     color: darkslategray;
 }
-
-li:nth-child(odd) {
-    color: #777;
-    background-color: #222;
-}
-li:nth-child(even) {
-    color: antiquewhite;
-}
-
-li {
-    list-style-type:none;
-    padding: 5px 0;
-    text-transform: capitalize;
-}
