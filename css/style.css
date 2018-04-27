@@ -1,0 +1,46 @@
+body {
+    background: aliceblue;
+    background-size: 60%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-family: monospace;
+    text-transform: capitalize;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(15, 90, 90, 0.78);
+    margin-top: 0;
+    padding: 3vh 0 2vh 0;
+    border-bottom: 5px solid rgba(1, 21, 21, 0.50);
+}
+
+.btn {
+    font-family: sans-serif;
+    left: 50%;
+    top: 5vh;
+    transform: translate(-50%, -50%);
+    background-color: crimson;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #e1f8f8;
+    color: darkslategray;
+}
+
+li:nth-child(odd) {
+    color: #777;
+    background-color: #222;
+}
+li:nth-child(even) {
+    color: antiquewhite;
+}
+
+li {
+    list-style-type:none;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
