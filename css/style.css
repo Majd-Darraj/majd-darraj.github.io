@@ -17,10 +17,12 @@ h4 {
     border-bottom: 5px solid rgba(1, 21, 21, 0.50);
 }
 
+/* Button */
+
 .btn {
     font-family: sans-serif;
     left: 50%;
-    top: 5vh;
+    top: 1vh;
     transform: translate(-50%, -50%);
     background-color: crimson;
     border-radius: 6px;
@@ -29,4 +31,57 @@ h4 {
 .btn:hover {
     background-color: #e1f8f8;
     color: darkslategray;
+}
+
+/* Content */
+
+.content {
+    padding: 30px;
+}
+
+/* List */
+
+ul {
+    margin: 2vh 0 1vh 0;
+    border-left: 10px rgba(15, 90, 90, 0.78) solid;
+}
+
+li:nth-child(odd) {
+    background-color: #2f394f;
+}
+
+li:nth-child(even) {
+    background-color: rgba(161, 164, 172, 0.25);
+}
+
+li:nth-child(odd):hover,
+li:nth-child(even):hover {
+    background-color: crimson;
+}
+
+li {
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+li a {
+    display: block;
+    padding: 5px 0 5px 20px;
+
+}
+
+.content li:nth-child(odd) a {
+    color: #d1d1d1;
+}
+
+.content li:nth-child(even) a {
+    color: #2f394f;
+}
+
+.content li:nth-child(even) a:hover {
+    color: #d1d1d1;
+}
+
+a:visited {
+    background-color: dimgrey;
 }

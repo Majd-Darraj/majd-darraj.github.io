@@ -34,3 +34,8 @@ function retrieveData() {
         }
     });
 }
+
+
+btn.onclick = () => {
+ document.querySelector(".btn").style.display = 'none';
+}
